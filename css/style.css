@@ -47,9 +47,6 @@ h1, h2, h3, h4{
 .about-me{
 	background: url(../img/tile1.png);
 }
-.favorites, .contacto{
-	text-align: center;
-}
 .contacto{
 	background: url(../img/tile2.png);
 }
