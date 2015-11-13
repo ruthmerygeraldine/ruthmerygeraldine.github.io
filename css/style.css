@@ -7,23 +7,13 @@ h1, h2, h3, h4{
 	color: #A9268D;
 	font-family: "Oswald",arial,sans-serif;
 }
-.list-nav{
-	text-align: center;
-	text-decoration: none;
-}
-.list-nav li{
-	display: inline-block;
-}
-.list-nav a{
-	display: block;
+.header .text-center{
 	padding: 20px 20px;
-	color: #565;
-	font-family: "Oswald",arial,sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
-	transition: all 0.5s;
+	transition: all 0.5s;;
 }
-.list-nav a:hover{
+.header .text-center:hover{
 	text-decoration: none;
 	background: #ECECEC;
 	transform: scale(1.2);
