@@ -1,0 +1,141 @@
+/* */
+/* *{
+  outline: 1px solid rgba(255,0,0,4);
+} */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+
+body{
+	color:#555555;
+	font-family: :arial,sans-serif;
+	font-size: 13px;
+}
+h1, h2, h3, h4{
+	color: #A9268D;
+	font-family: "Oswald",arial,sans-serif;
+}
+/********Estilos Generales*/
+
+.aling-center{
+  text-align: center;
+}
+.texto-gris-oscuro{
+  color:#34495e;
+}
+.texto-gris{
+  color:#999;
+}
+.margin-t-b-5{
+  margin: 5px 0;
+}
+.fondo-blanco{
+  background: white;
+}
+.fondo-gris-claro{
+  background: #f5f5f5;
+}
+.padding-t-100{
+  padding-top: 100px;
+}
+.padding-t-60{
+  padding-top: 60px;
+}
+.fondo-verde{
+  background: #2ecc71;
+}
+.texto-blanco{
+  color:white;
+}
+.texto-oscuro{
+  color:#2C3D50;
+}
+.padding-d-i{
+  padding:0 60px;
+}
+.size-40{
+  font-size: 40px;
+}
+.alineado{
+  display: inline-block;
+}
+
+/**************** HEADER *************/
+header {
+
+}
+.encabezado > .navbar-header > a:hover{
+  color:white;
+}
+.navbar-header>button>span{
+  background:white;
+}
+.navbar-header>button{
+  margin-left: 10%;
+}
+
+.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus{
+  background: #890084;
+}
+
+ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+header>ul> li > a:active:before {
+    background-color: blue;
+}
+.navbar{
+    background-color: #34495e;
+    border-color: #34495e;
+    border-width:7px 0px;
+    margin-bottom: 0;
+    padding: 10px 40px;
+}
+.encabezado >a> img{
+  margin-right: 30px;
+}
+.navbar-header>button{
+  background:  #34495e;
+  margin-left: 30px;
+  border:2px solid black;
+}
+.navbar-header>button:hover{
+  background: #890084
+}
+.navbar-header a{
+  position: absolute;
+  padding-right: 10px;
+}
+.navbar-nav>li> a:hover{
+  background: #890084;
+  color:white;
+}
+
+.menu-pie li{
+  list-style: none;
+}
+.menu-pie a:hover{
+  color: #E74C3C;
+}
+
+.menu-pie p:nth-child(1):hover{
+  color: #E74C3C;
+}
+.pie-img{
+  height: 55px;
+}
+.navbar-brand{
+  padding: 10px;
+}

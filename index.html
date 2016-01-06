@@ -1,53 +1,320 @@
-<!-- Geraldine trabajó este código :D --><html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>PrettiFy</title>
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css"><link rel="shortcut icon" href="img/logo.png">
-	<script>
-  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-71306421-1', 'auto');
-		ga('send', 'pageview');
-  	</script>
-</head>
-<body>
-	<div class="header">
-		<div class="text-center fixed">
-			<a href="#about-me"><button type="button" class="btn btn-info">About</button></a>
-			<a href="#favorites-me"><button type="button" class="btn btn-danger">Favorites</button></a>
-			<a href="#contact-me"><button type="button" class="btn btn-warning">Contact</button></a>
-		</div>
-		<div class="header-content">
-			<img src="img/logo.png" alt="">
-			<h1>Your name here</h1>
-			<p>Your tagline here</p>
-		</div>
-	</div>
-	<div id="about-me" class="about-me">
-		<div class="container">
-			<h3>About me</h3>
-				<p class="biografia">
-					<img src="img/profile.jpg" alt="">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aliquam accusantium quis, numquam sit similique tempore laborum voluptatum inventore corporis, saepe dolores autem iste fugiat reprehenderit eius est vel molestias magni corrupti explicabo? Quisquam assumenda quis vitae id magnam aut pariatur commodi similique quos, dolor provident doloremque recusandae quibusdam rem aliquid officia in earum impedit. Numquam ipsam praesentium, dolorem qui accusamus voluptate mollitia? Repellendus qui ipsam minima impedit obcaecati perspiciatis facere odit similique commodi, totam molestias culpa error perferendis eos, optio, vel exercitationem eveniet nobis pariatur quam reiciendis consequatur! Magnam ea corporis eveniet et suscipit, animi nostrum dicta molestias enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, architecto.</p>
-		</div>
-	</div>
-	<div id="favorites-me" class="text-center">
-		<h3>My Favorites things</h3>
-		<h4>Here are a few things I really love</h4>
-		<img src="img/kitten.jpg" class="img-circle img-thumbnail" alt="">
-		<img src="img/kitten.jpg" class="img-circle img-thumbnail" alt="">
-		<img src="img/kitten.jpg" class="img-circle img-thumbnail" alt="">
-		<img src="img/kitten.jpg" class="img-circle img-thumbnail" alt="">
-	</div>
-	<div id="contact-me" class="text-center contacto">
-		<h3>Contact me</h3>
-		<a href="http://www..com" target="_blanck"><img src="img/twitter.png" class="img-circle img-thumbna" alt=""></a>
-		<a href="http://www..com" target="_blanck"><img src="img/facebook.png" class="img-circle img-thumbna" alt=""></a>
-		<a href="http://www..com" target="_blanck"><img src="img/linkedin.png" class="img-circle img-thumbna" alt=""></a>
-	</div>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>NetGHOR</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="img/logos/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+  <body>
+    <!-- Inserte código aqui -->
+    <header >
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar navbar-fixed-top padding-d-i"> <!--NAVBAR -->
+                        <div class="encabezado">
+                             <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="index.html"><img src="img/logos/favicon.png" alt="logo"></a>
+                        </div>
+                        <div class="lista-menu">
+                            <div class="collapse navbar-collapse" id="navbar-collapse">
+                                 <ul class="nav nav-bar-menu navbar-nav navbar-right  ">
+                                     <li class="active"><a class="texto-blanco" href="index.html">About Me</a></li>
+                                    <li ><a class="texto-blanco" href="favorites.html">Favorites</a></li>
+                                    <li ><a class="texto-blanco" href="portfolio.html">Portfolio</a></li>
+                                    <li ><a class="texto-blanco" href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav><!-- TERMINA NAVBAR -->
+                </div>
+            </div><!--row -->
+        </div><!-- container header-->
+    </header><!--END HEADER-->
+
+
+    <!-- ************************** Slider ***************************************-->
+
+    <div class="slider container-fluid pr-0 pl-0">
+        <div class="opacidad-imagen">
+                <div id="Carousel-1" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#Carousel-1" data-slide-to="0" class="active"></li>
+                <li data-target="#Carousel-1" data-slide-to="1"></li>
+                <li data-target="#Carousel-1" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <div class="img-1"></div>
+                  <div class="carousel-seleccion container">
+                    <h1  class="animated fadeInDown">Ruthmery Geraldine GHOR</h1>
+                    <p class="animated fadeInUp">Soy una Persona: Sociable, Trabajadora Profesional y Deportista :) Conoce más Sobre lo que hago :D</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="img-2"></div>
+                  <div class="carousel-seleccion container">
+                    <h1  class="animated fadeInDown">Powerful and Responsive Web Design</h1>
+                    <p class="animated fadeInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id hic quasi.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="img-3"></div>
+                  <div class="carousel-seleccion container">
+                    <h1  class="animated fadeInDown">Powerful and Responsive Web Design</h1>
+                    <p class="animated fadeInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id hic quasi.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+    </div><!--End Slider -->
+
+    <!-- Social Network-->
+
+    <div class="social-network">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12" >
+                    <div class="content-marketing">
+                        <div class="pull-left alineado fondo-icono">
+                            <i class="icon-twitter texto-blanco size-40"></i>
+                        </div>
+                        <div class="item-mk">
+                            <h3 class="texto-blanco">Twitter Marketing</h3>
+                            <p class="texto-blanco">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12" >
+                    <div class="content-marketing">
+                        <div class="pull-left alineado fondo-icono">
+                            <i class="icon-facebook texto-blanco size-40"></i>
+                        </div>
+                        <div class="item-mk  ">
+                            <h3 class="texto-blanco">Facebook Marketing</h3>
+                            <p class="texto-blanco">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12" >
+                    <div class="content-marketing">
+                        <div class="pull-left alineado fondo-icono">
+                            <i class="icon-google-plus texto-blanco size-40"></i>
+                        </div>
+                        <div class="item-mk">
+                            <h3 class="texto-blanco">Google Plus Marketing</h3>
+                            <p class="texto-blanco pull-right">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!--Our Lastest Projects -->
+
+    <div class="our-lastest-projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <h3>Our Latest Project</h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    <div class="btn-group">
+                        <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a>
+                        <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="icon-angle-right"></i></a>
+                    </div>
+                    <p class="pag"></p>
+                </div>
+                <div class="col-md-9 col-sm-12"> <!--Contenedor item portafolio -->
+                    <div class="row">
+                        <div class="col-xs-4"><!--item 1 -->
+                            <div class="item-portfolio">
+                                <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-4"><!--item 2 -->
+                            <div class="item-portfolio">
+                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-4"> <!--item 3 -->
+                            <div class="item-portfolio">
+                                <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--End row -->
+        </div><!-- End container-->
+    </div><!-- End Our Lastest projects-->
+
+    <!-- What Our Clients say-->
+
+        <div class="Clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class="center">
+                        <h2>What our clients say</h2>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <small class="Source-title">Someone famous in Source Title</small>
+                            </blockquote>
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <small class="Source-title">Someone famous in Source Title</small>
+                            </blockquote>
+                        </div>
+                        <div class="col-md-6">
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <small class="Source-title">Someone famous in Source Title</small>
+                            </blockquote>
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <small class="Source-title">Someone famous in Source Title</small>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--End-->
+
+    <footer class="container-fluid footer-fluid">
+        <div class="container p-t p-b">
+            <div class="row top top10">
+                <div class="col-md-3">
+                  <h4 class="texto-blanco">About us</h4>
+                  <p class="texto-plomo">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+                  <p class="texto-plomo">Pellentesque habitant morbi tristique senectus.</p>
+                </div>
+                <!-- Primer Recuadro Finalizado -->
+                <div class="col-md-2">
+                  <h4 class="texto-blanco">Company</h4>
+                  <ul class="pl-0 men texto-plomo">
+                    <li><span class="glyphicon glyphicon-chevron-right"></span><a href="#">The Company</a></li>
+                    <li><span class="glyphicon glyphicon-chevron-right"></span><a href="#">Our Team</a></li>
+                    <li><span class="glyphicon glyphicon-chevron-right"></span><a href="#">Our Partners</a></li>
+                    <li><span class="glyphicon glyphicon-chevron-right"></span><a href="#">Our Services</a></li>
+                    <li><span class="glyphicon glyphicon-chevron-right"></span><a href="#">Faq</a></li>
+                    <li><span class="glyphicon glyphicon-chevron-right"></span><a href="#">Contact Us</a></li>
+                    <li><span class="glyphicon glyphicon-chevron-right"></span><a href="#">Privacy Policy</a></li>
+                    <li><span class="glyphicon glyphicon-chevron-right"></span><a href="#">Terms of Use</a></li>
+                    <li><span class="glyphicon glyphicon-chevron-right"></span><a href="#">Copyright</a></li>
+                  </ul>
+                </div>
+                <!-- Primer Recuadro Finalizado -->
+                <div class="col-md-4">
+                    <h4 class="texto-blanco">Latest Blog</h4>
+                    <div class="enlace d-f p-b">
+                        <img class="pie-img" src="images/blog/thumb1.jpg" alt="">
+                        <div class="p-l texto-plomo">
+                            <ul class="pl-0 men texto-plomo">
+                                <li><a href="#">Pellentesque habitant morbi tristique senectus</a></li>
+                            </ul>
+                            <p class="size-10">Posted 17 Aug 2013</p>
+                        </div>
+                    </div>
+                    <div class="enlace d-f p-b">
+                        <img class="pie-img" src="images/blog/thumb1.jpg" alt="">
+                        <div class="p-l texto-plomo">
+                            <ul class="pl-0 men texto-plomo">
+                                <li><a href="#">Pellentesque habitant morbi tristique senectus</a></li>
+                            </ul>
+                            <p class="size-10">Posted 17 Aug 2013</p>
+                        </div>
+                    </div>
+                    <div class="enlace d-f p-b">
+                        <img class="pie-img" src="images/blog/thumb1.jpg" alt="">
+                        <div class="p-l texto-plomo">
+                            <ul class="pl-0 men texto-plomo">
+                                <li><a href="#">Pellentesque habitant morbi tristique senectus</a></li>
+                            </ul>
+                            <p class="size-10">Posted 17 Aug 2013</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Primer Recuadro Finalizado -->
+                <div class="col-md-3 menu3">
+                    <h4 class="texto-blanco">Adress</h4>
+                        <div class="texto-plomo">
+                            <h5 class="negrita">Twitter, Inc.</h5>
+                            <p class="mb-0">795 Folsom Ave, Suite 600</p>
+                            <p class="mb-0">San Francisco, CA 94107</p>
+                            <p class="mb-0"><abbr title="Phone">P:</abbr> (123) 456-7890</p>
+                        </div>
+                    <h4 class="texto-blanco">Newsletter</h4>
+                    <form role="form">
+                        <div class="input-group" style="width: 210px;">
+                            <input type="text" class="form-control" autocomplete="off" placeholder="Enter your email">
+                            <span class="input-group-btn">
+                                <button class="btn btn-danger" type="button">Go!</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="container-fluid footer-fluid2" style="padding-bottom: 20px;">
+        <div class="container pb-0 mb-0 top top10">
+            <div class="row d-f alinear">
+                <div class="col-sm-6 p-t">
+                    <p class="texto-plomo none">© 2013
+                        <a class="texto-plomo rojo" href="#">ShapeBootstrap</a>. All Rights Reserved. All Rights Reserved.
+                    </p>
+                </div>
+                <div class="col-sm-6 p-t">
+                    <ul class="pull-right d-f men texto-plomo quita-espacio">
+                        <li class="p-r"><a href="#">Home</a></li>
+                        <li class="p-l p-r"><a href="#">About Us</a></li>
+                        <li class="p-l p-r"><a href="#">Faq</a></li>
+                        <li class="p-l p-r"><a href="#">Contact Us</a></li>
+                        <li class="p-l p-r"><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
