@@ -180,15 +180,15 @@ header>ul> li > a:active:before {
   color: #fff;
 }
 .carousel .img-1 {
-  background: url('../img/slider/img1.jpg') center no-repeat;background-size: cover  ;
+  background: url('../img/slider/img6.jpg') center no-repeat;background-size: cover  ;
   -webkit-filter: opacity(60%);
 }
 .carousel .img-2 {
-  background: url('../img/slider/img2.jpg') center no-repeat; background-size: cover ;
+  background: url('../img/slider/img7.jpg') center no-repeat; background-size: cover ;
   -webkit-filter: opacity(60%);
 }
 .carousel .img-3 {
-  background: url('../img/slider/img3.jpg') center no-repeat;background-size: cover ;
+  background: url('../img/slider/img8.jpg') center no-repeat;background-size: cover ;
   -webkit-filter: opacity(60%);
 }
 .opacidad-imagen{
@@ -205,6 +205,9 @@ header>ul> li > a:active:before {
   left:50%;
   -ms-transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%);
   top:50%;
+}
+.perfil{
+  width: 25%;
 }
 /************ Social Network ***********/
 
