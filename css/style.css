@@ -4,7 +4,7 @@ body{
 	font-size: 13px;
 }
 h1, h2, h3, h4{
-	color: #A9268D;
+	color: #fff;
 	font-family: "Oswald",arial,sans-serif;
 }
 .fixed{
@@ -133,7 +133,7 @@ header {
 }
 
 .navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus{
-  background: #176BC3;
+  background: #A9AEB3;
 }
 
 ul{
@@ -141,11 +141,11 @@ ul{
   list-style-type: none;
 }
 header>ul> li > a:active:before {
-    background-color: blue;
+    background-color: #A9AEB3;
 }
 .navbar{
-    background-color: #45AFDF;
-    border-color: #176BC3;
+    background-color: #3A3B3C;
+    border-color: #333538;
     border-width:5px 0px;
     margin-bottom: 0;
     padding: 10px 40px;
@@ -154,23 +154,23 @@ header>ul> li > a:active:before {
   margin-right: 30px;
 }
 .navbar-header>button{
-  background: #45AFDF;
+  background: #3A3B3C;
   margin-left: 30px;
-  border:2px solid black;
+  border:2px solid #333538;
 }
 .navbar-header>button:hover{
-  background: #176BC3;
+  background: #A9AEB3;
 }
 .navbar-header a{
   position: absolute;
   padding-right: 10px;
 }
 .navbar-nav>li> a:hover{
-  background: #176BC3;
+  background: #A9AEB3;
   color:white;
 }
 .navbar-brand img{
-  width: 25%;
+  width: 15%;
 }
 /*************Slider***********/
 .slider{
@@ -251,10 +251,10 @@ header>ul> li > a:active:before {
 }
 
 
-/********************* What Our clients say ******************/
+/********************* cITAS FAVORITAS ******************/
 
 .Clients{
-  background: #e74c3c;
+  background:  #4E6467;
   color:white;
   padding-top: 30px;
 }
@@ -482,7 +482,7 @@ header>ul> li > a:active:before {
 	width: 100%;
 }
 .footer-fluid2{
-	background: #2c3e50;
+	background: #333538;
 }
 
 /* empieza la section TOPTOP*/
