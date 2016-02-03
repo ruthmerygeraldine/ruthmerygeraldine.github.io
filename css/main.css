@@ -1,3 +1,6 @@
+body{
+	background-color:rgba(221, 221, 221, 1) !important;
+}
 section#banner{
 	width: 100%;
 	background-image: url(../img/background/img2.jpg);
@@ -106,7 +109,7 @@ h4
 }
 .container-top .text-hero h2{
 	text-shadow: 1px 1px 5px rgba(150, 150, 150, 1);
-	font-size: 90px;	
+	font-size: 90px;
 }
 .conten-about{
 	width: 100%;
@@ -213,6 +216,8 @@ h4
 }
 .content-habilidades p{
 	font-size: 17px;
+	color: white;
+	font-weight: bold;
 }
 
 
@@ -232,6 +237,10 @@ h4
 
 /*portafolio*/
 /* generic css */
+#portfolio{
+	background-image: url(../img/background/img4.gif);
+}
+
 .porta i{
   font-size: 28px;
     color: black;
@@ -245,7 +254,7 @@ h4
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
     padding:1%;
-   
+
 }
 .view .mask, .view .content {
     width: 540px;
@@ -279,15 +288,15 @@ h4
     padding: 0px 20px 0px;
     text-align: center
 }
-.view-tenth img { 
+.view-tenth img {
     transform: scaleY(1);
     transition: all .7s ease-in-out;
 }
-.view-tenth .mask { 
+.view-tenth .mask {
     background-color: #EBEBD6;
     transition: all 0.5s linear;
     opacity: 0;
-}   
+}
 .view-tenth h2{
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     background: transparent;
@@ -305,17 +314,17 @@ h4
     padding-
 }
 
-.view-tenth:hover img { 
-  -webkit-transform: scale(10);  
+.view-tenth:hover img {
+  -webkit-transform: scale(10);
   transform: scale(10);
     opacity: 0;
 }
-.view-tenth:hover .mask { 
+.view-tenth:hover .mask {
     opacity: 1;
-}                                                                            
+}
 .view-tenth:hover h2,
 .view-tenth:hover p,
-.view-tenth:hover a.info{ 
+.view-tenth:hover a.info{
     transform: scale(1);
     opacity: 1;
 }
@@ -398,7 +407,7 @@ h4
 }
 /* Inicio de habilidades y conocimientos skills*/
 #skills{
-	background-image: url(../img/background/img4.gif);
+
 	text-align: center;
 	padding: 80px 50px 60px 50px;
 	position: relative;
@@ -487,8 +496,8 @@ h4
 .progresed-indicator{
 	color: #34b3a0 !important;
 	margin-left:auto;
-	width: 3em; 
-	height: 1em; 
+	width: 3em;
+	height: 1em;
 	line-height: 1em;
 	font-style: normal;
 }
