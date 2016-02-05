@@ -16,7 +16,7 @@ $(document).ready(function(){
 		}else{
 			if(flag){
 				$("#logo").css({"margin-top": "150px", "width": "630px","height":"157px"});
-				$("#logo").attr("src","img//icono/icono1.png")
+				$("#logo").attr("src","img/icono/nombre3.png")
 				$("header").css({"background-color": "transparent"});
 				flag = false;
 			}
