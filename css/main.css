@@ -217,7 +217,7 @@ h4
 }
 .content-habilidades p{
 	font-size: 22px;
-	color: white;
+	color: #8E888B;
 	font-weight: bold;
 }
 
@@ -429,7 +429,7 @@ background-image: url(../img/background/img3.jpg);
     padding-bottom: 8px;
 }
 #skills h5{
-	color: #FFF2F9;
+	color: #8E888B;
 	font-size: 22px;
 }
 #hoverme{
