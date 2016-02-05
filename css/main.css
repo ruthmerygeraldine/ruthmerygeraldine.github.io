@@ -3,7 +3,7 @@ body{
 }
 section#banner{
 	width: 100%;
-	background-image: url(../img/background/img2.jpg);
+	background-image: url(../img/background/img1.jpg);
 	background-attachment: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -60,8 +60,9 @@ img#logo{
 /*mi codigo*/
 h3{
 	font-family: 'Glass Antiqua', cursive;
-	font-size: 30px;
+	font-size: 36px;
 	color: #5AC3F9;
+	font-weight: 700;
 }
 h4
 {
@@ -215,7 +216,7 @@ h4
 	transition: all 0.3s;
 }
 .content-habilidades p{
-	font-size: 17px;
+	font-size: 22px;
 	color: white;
 	font-weight: bold;
 }
@@ -405,6 +406,9 @@ h4
     flex-direction: column;
   }
 }
+.porta{
+background-image: url(../img/background/img3.jpg);
+}
 /* Inicio de habilidades y conocimientos skills*/
 #skills{
 
@@ -423,12 +427,10 @@ h4
 #skills h3{
     color: #5AC3F9;
     padding-bottom: 8px;
-    font-weight: 700;
 }
 #skills h5{
 	color: #FFF2F9;
-	font-size: 18px;
-	font-weight: 800;
+	font-size: 22px;
 }
 #hoverme{
 	width: 100%;
@@ -508,6 +510,9 @@ h4
 }
 .progresed .progress__bar {
 	background-color: #e6e7e8;
+}
+.bg-circle img{
+	opacity: 0.8;
 }
 /* Inicio de habilidades y conocimientos skills*/
 
