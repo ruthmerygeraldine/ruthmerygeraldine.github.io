@@ -520,7 +520,7 @@ background-image: url(../img/background/img3.jpg);
 ul.socialLinks{
 	list-style: none;
 	display: flex;
-    padding-left: 150px;
+    padding-left: 450px;
 }
 ul.socialLinks li a i{
 	border-radius: 50%;
